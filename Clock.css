@@ -1,0 +1,30 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(cold-melancholic-scene.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#clock-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+#clock{
+    text-align: center;
+    font-size: 6em;
+    font-family: monospace;
+    font-weight: bold;
+    backdrop-filter:blur(0.4rem);
+    background-color: rgba(128, 128, 128, 0.189);
+    width:100%;
+}
