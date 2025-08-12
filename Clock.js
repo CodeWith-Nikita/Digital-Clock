@@ -54,7 +54,7 @@ function updateClock(){
     hours = hours.toString().padStart(2,0);
     const minutes = now.getMinutes().toString().padStart(2,0);;
     const seconds = now.getSeconds().toString().padStart(2,0);;
-    const timeStrings = `${hours} : ${minutes} : ${seconds} ${meridiem}`;
+    const timeStrings = `${hours}:${minutes}:${seconds} ${meridiem}`;
     document.getElementById("clock").textContent = timeStrings;
 }
 
